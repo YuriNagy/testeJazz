@@ -51,7 +51,7 @@ public class Main {
     public void movimentacao(){
         String entrada[];
         int x, y;
-        entrada = JOptionPane.showInputDialog("Informe os canteiros").split(" ");
+        entrada = JOptionPane.showInputDialog("Informe os canteiros\n Segue o padrao (x,y) (x1,y1)").split(" ");
         
         System.out.println(entrada[0].split(","));
         
